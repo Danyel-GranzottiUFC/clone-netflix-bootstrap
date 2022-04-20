@@ -95,10 +95,9 @@ header {
 }
 
 .logo{
-    height: 10vh;
     min-width: 90px;
-    width: 11vw;
-    margin-right: 50%;
+    width: 11vw;    
+    max-height: 10px;
 }
 
 header img {
@@ -448,7 +447,7 @@ label {
 .svg-closed {
     position: absolute;
     right: 0.3em;
-    top: 1.1em;
+    top: 50%;
     width: 1em;
     fill: #fff;
     -webkit-transform: translateY(-50%) rotate(-90deg);
